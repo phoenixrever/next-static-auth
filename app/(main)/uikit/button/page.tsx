@@ -133,23 +133,23 @@ const ButtonDemo = () => {
                 <div className="card">
                     <h5>Template</h5>
                     <div className="flex flex-wrap gap-2">
-                        <Button className={classNames(styles['p-button'], styles['google'])} aria-label="Google">
-                            <span className="flex align-items-center px-2 bg-purple-700 text-white">
+                        <Button className={classNames(styles['p-button'], styles.google)} aria-label="Google">
+                            <span className="align-items-center flex bg-purple-700 px-2 text-white">
                                 <i className="pi pi-google"></i>
                             </span>
-                            <span className="px-3 py-2 flex align-items-center text-white">Google</span>
+                            <span className="align-items-center flex px-3 py-2 text-white">Google</span>
                         </Button>
-                        <Button className={classNames(styles['p-button'], styles['twitter'])} aria-label="Twitter">
-                            <span className="flex align-items-center px-2 bg-blue-500 text-white">
+                        <Button className={classNames(styles['p-button'], styles.twitter)} aria-label="Twitter">
+                            <span className="align-items-center flex bg-blue-500 px-2 text-white">
                                 <i className="pi pi-twitter"></i>
                             </span>
-                            <span className="px-3 py-2 flex align-items-center text-white">Twitter</span>
+                            <span className="align-items-center flex px-3 py-2 text-white">Twitter</span>
                         </Button>
-                        <Button className={classNames(styles['p-button'], styles['discord'])} aria-label="Discord">
-                            <span className="flex align-items-center px-2 bg-bluegray-800 text-white">
+                        <Button className={classNames(styles['p-button'], styles.discord)} aria-label="Discord">
+                            <span className="align-items-center bg-bluegray-800 flex px-2 text-white">
                                 <i className="pi pi-discord"></i>
                             </span>
-                            <span className="px-3 py-2 flex align-items-center text-white">Discord</span>
+                            <span className="align-items-center flex px-3 py-2 text-white">Discord</span>
                         </Button>
                     </div>
                 </div>
